@@ -1,0 +1,161 @@
+﻿import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Mail, Phone, Home } from "lucide-react";
+
+export default function LittleHeartsSanctuary() {
+  return (
+    <div className="p-4 space-y-10">
+      {/* Hero Section */}
+      <section className="text-center bg-pink-100 rounded-2xl p-10 shadow-md">
+        <img
+          src="/litt.jpg"
+          alt="Little Hearts Sanctuary Logo"
+          className="mx-auto w-40 h-auto mb-4"
+        />
+        <h1 className="text-4xl font-bold text-pink-800">Little Hearts Sanctuary</h1>
+        <p className="mt-4 text-pink-700 text-lg">
+          A loving home for orphaned and vulnerable children.
+        </p>
+      </section>
+
+      {/* About Section */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold text-pink-800">About Us</h2>
+        <p>
+          Little Hearts Sanctuary was founded to provide shelter, education, and love
+          to children in need. We believe every child deserves a chance to thrive
+          in a safe and supportive environment.
+        </p>
+        <h3 className="text-xl font-semibold text-pink-700">Our Vision</h3>
+        <p>
+          To create a home where all children, including those with social needs, feel safe, valued, and empowered to reach their full potential.
+        </p>
+        <h3 className="text-xl font-semibold text-pink-700">Our Mission</h3>
+        <p>
+          Guided by faith, we provide a nurturing environment where children can grow in love, wisdom, and spirit—becoming beacons of hope in their communities.
+        </p>
+      </section>
+
+      {/* Our Impact Section */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold text-pink-800">Your Impact</h2>
+        <p>
+          Thanks to your support, we’ve been able to create joyful and meaningful experiences for the children in our care. Here are a few moments captured from our journey:
+        </p>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/baby.jpg" alt="Baby being cared for" className="rounded-lg shadow" />
+          <img src="/pray.jpg" alt="Children praying together" className="rounded-lg shadow" />
+          <img src="/eat.jpg" alt="Children enjoying a meal" className="rounded-lg shadow" />
+          <img src="/family.jpg" alt="Group photo with supporters" className="rounded-lg shadow" />
+          <img src="/love.jpg" alt="Smiling child" className="rounded-lg shadow" />
+          <img src="/share.jpg" alt="Sharing supplies" className="rounded-lg shadow" />
+          <img src="/amem.jpg" alt="Thankful hands" className="rounded-lg shadow" />
+        </div>
+      </section>
+
+      {/* Challenges Section */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold text-pink-800">Our Challenges</h2>
+        <p>
+          Running an orphanage comes with many challenges. We often face difficulties such as:
+        </p>
+        <ul className="list-disc list-inside text-gray-700">
+          <li>Limited funding for daily necessities and school fees</li>
+          <li>Inadequate medical supplies and healthcare access</li>
+          <li>Shortage of proper clothing and bedding for the children</li>
+          <li>Insufficient infrastructure and maintenance needs</li>
+        </ul>
+        <p>
+          Despite these hardships, we remain committed to our mission through the generous support of well-wishers and sponsors.
+        </p>
+      </section>
+
+      {/* Financial Accountability Section */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold text-pink-800">Financial Accountability</h2>
+        <p>
+          At Little Hearts Sanctuary, we value transparency and integrity. All donations are carefully recorded and used strictly for the well-being of our children and the improvement of our facilities.
+        </p>
+        <p>
+          We regularly update our sponsors and donors with reports detailing how funds are spent, including receipts, photos, and progress updates.
+        </p>
+        <p>
+          If you would like to receive a financial report or have any questions about how your contributions are used, please contact us at <strong>walakiradenisuganda@gmail.com</strong>.
+        </p>
+      </section>
+
+      {/* How To Help Section */}
+      <section className="space-y-4 bg-pink-50 p-6 rounded-xl shadow-md">
+        <h2 className="text-2xl font-semibold text-pink-800">How To Help</h2>
+        <p>You can support Little Hearts Sanctuary in several ways:</p>
+        <ul className="list-disc list-inside text-gray-700">
+          <li><strong>Donate Funds:</strong> Your financial support helps us cover food, healthcare, education, and maintenance costs.</li>
+          <li><strong>Volunteer Your Time:</strong> Assist with education, events, or daily care activities.</li>
+          <li><strong>Provide Supplies:</strong> Clothing, school supplies, books, and hygiene products are always needed.</li>
+          <li><strong>Spread Awareness:</strong> Share our mission and stories on social media to reach more supporters.</li>
+          <li><strong>Offer Professional Services:</strong> If you have skills in healthcare, education, counseling, or administration, we welcome your help.</li>
+        </ul>
+        <p>Every contribution, big or small, makes a difference in the lives of our children.</p>
+      </section>
+
+      {/* Donate Section */}
+      <section className="bg-pink-50 p-6 rounded-xl shadow-md">
+        <h2 className="text-2xl font-semibold text-pink-800 mb-2">Support Us</h2>
+        <p className="mb-4">
+          Your donation helps us provide food, shelter, education, and love to our children.
+        </p>
+        <p><strong>Mobile Wallet Transfers:</strong> +256702341931 / +256779621687</p>
+        <p><strong>PayPal:</strong> <a href="https://www.paypal.me/DenisWalakira" className="text-blue-600 underline">paypal.me/DenisWalakira</a></p>
+        <p><strong>Equity Bank:</strong> Denis Walakira – 1016103440482</p>
+        <p><strong>Email:</strong> walakiradenisuganda@gmail.com</p>
+      </section>
+
+      {/* Contact Section */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-semibold text-pink-800">Contact Us</h2>
+        <div className="flex items-center gap-2">
+          <Home className="text-pink-600" />
+          <span>Mityana, Uganda</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Mail className="text-pink-600" />
+          <span>walakiradenisuganda@gmail.com</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Phone className="text-pink-600" />
+          <span>+256702341931 / +256779621687</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-pink-600 font-semibold">WhatsApp:</span>
+          <a href="https://wa.me/+256702341931" className="text-blue-600 underline">wa.me/+256702341931</a>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-pink-600 font-semibold">Facebook:</span>
+          <a href="https://www.facebook.com/share/16VHjwcZMa/?mibextid=wwXIfr" className="text-blue-600 underline">Visit Page</a>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-pink-600 font-semibold">Instagram:</span>
+          <a href="https://www.instagram.com/i_am_denis001" className="text-blue-600 underline">@i_am_denis001</a>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-pink-600 font-semibold">TikTok:</span>
+          <a href="https://www.tiktok.com/@imdenis061" className="text-blue-600 underline">@imdenis061</a>
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <section className="bg-white p-6 rounded-xl shadow-md">
+        <h3 className="text-xl font-semibold mb-4 text-pink-800">Send Us a Message</h3>
+        <form className="space-y-4">
+          <Input placeholder="Your Name" />
+          <Input placeholder="Your Email" type="email" />
+          <Textarea placeholder="Your Message" rows={4} />
+          <Button className="bg-pink-600 hover:bg-pink-700 text-white">Send</Button>
+        </form>
+      </section>
+    </div>
+  );
+}
